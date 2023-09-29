@@ -68,10 +68,12 @@ export default function HomePage() {
                           if(message.content.includes('https')) {
                             // Image
                             return (
-                              <div className='flex-row justify-start' key={index}>
+                              <div className='flex flex-row justify-start w-60' key={index}>
                                 <div className='bg-emerald-200 rounded-2xl flex p-2 rounded-tl-none'>
                                   <Image
                                     className='rounded-2xl'
+                                    width={50}
+                                    height={50}
                                     src={message.content} 
                                     style={{width: 230, height: 230,}} 
                                     alt='image'
