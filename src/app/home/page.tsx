@@ -47,7 +47,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className='flex-1 h-[1000vh] bg-white'>
+    <div className='flex-1 h-[100vh] bg-white'>
       <div className='flex flex-col items-center mx-5 pt-10'>
         {/* icon */}
         <div className='flex flex-row justify-center'>
